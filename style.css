@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.formContainer {
+  margin: 2em auto;
+  padding: 0.5em;
+  border: 1px solid white;
+  background-color: gainsboro;
+  font-size: 14px;
+  font-family: Tahoma;
+  color: #3c3a43;
+  max-width: 600px;
+}
+
+.formContainer .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.formContainer .group label {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.formContainer input[type="text"] {
+  border: 1px solid #cccccc;
+  background: #ffffff !important;
+  outline: none;
+  padding-left: 0.5em;
+  height: 24px;
+  width: 100%;
+}
+
+.formContainer input[type=button] {
+  border: 1px solid #cccccc;
+  background: #ffffff !important;
+  outline: none;
+  width: 100%;
+  height: 24px;
+}
+
+.formContainer input[type=button]:hover {
+  background: #3c3a43 !important;
+  color: #cccccc;
+}
+
+.formContainer input[type=button]:active {
+  background: gainsboro !important;
+}
+
+p {
+  text-align: center;
+  color: cadetblue;
+}
+
+.container {
+  margin: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container table {
+  border: 1px solid white;
+  background-color: gainsboro;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.container table td {
+  width: 2em;
+  height: 2em;
+  border: 1px solid white;
+  text-align: center;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=style.css.map */
